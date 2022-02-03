@@ -1,0 +1,50 @@
+.bg-intro {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-image: url('https://i.ibb.co/Ss4zhvj/CBD-oil-tincture-with-hemp-leaves-on-a-black-background-Different-bottles-with-a-pipette-and-marijua.jpg');
+    background-position: 50% 85%;
+    background-color: transparent;
+}
+
+.bg-intro-cooking {
+    height: 25vh;
+}
+
+.bg-usps {
+    background-size: cover;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/02/10/48/34/1000_F_210483464_f3vPPoRmNRV0dC6aClpoIoVtOPVxFV3l.jpg');
+    background-position: 50% 85%;
+    min-height: 850px;
+}
+
+.bg-gradient {
+    background: #131927;
+    background: -webkit-linear-gradient(to right, rgba(19, 25, 39, 1), rgba(19, 25, 39, 0.7));
+    background: linear-gradient(to right, rgba(19, 25, 39, 1), rgba(19, 25, 39, 0.7));
+}
+
+.filter-contrast {
+    filter: brightness(100%) contrast(120%) saturate(100%);
+}
+
+@media(min-width: 576px) {
+    .bg-usps {
+        min-height: 750px;
+    }
+}
+
+@media(min-width: 992px) {
+    .bg-usps {
+        min-height: 600px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .bg-usps {
+        min-height: 550px;
+    }
+}

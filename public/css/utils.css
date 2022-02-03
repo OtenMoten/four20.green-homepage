@@ -1,0 +1,12 @@
+.min-110-vh {
+    min-height: 110vh !important;
+}
+
+@media (min-width: 768px) {
+    .min-75-vh {
+        min-height: 75vh !important;
+    }
+    #cta-img-nml-50 {
+        margin-left: 50px;
+    }
+}
