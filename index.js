@@ -52,6 +52,6 @@ https.createServer(
         key: fs.readFileSync("key.pem"),
         cert: fs.readFileSync("cert.pem"),
     }, app)
-    .listen(7070, "0.0.0.0", () => {
-        console.log("Server listen on port 7070 *");
+    .listen(8080, "0.0.0.0", () => {
+        console.log("Server listen on port 8080 *");
     });
